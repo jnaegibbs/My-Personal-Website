@@ -1,0 +1,56 @@
+:root, body {
+    background-color: #DABFFF;
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    border: #2C2A4A solid; 
+}
+
+header {
+    background-color: #7AEDF3;
+    color: #2C2A4A ;
+    padding: 5px;
+    text-align: center;
+    border: 5px #907AD6 solid;
+    margin: 5px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif #2C2A4A;
+}
+
+
+main {
+    overflow: hidden;
+    text-align: center;
+    color: #2C2A4A;
+    border: 5px #907AD6 solid;
+    margin: 5px
+
+}
+
+#me {
+    width: 50%;
+    height: 50%;
+    float: left;
+
+} 
+
+#donna {
+    float: right;
+    height: 50%;
+    width: 50% 
+}
+
+.portfolio { 
+    float: left;
+    overflow: hidden;
+    width: 300px;
+    margin: 5px;
+}
+article {
+    text-align: left;
+    width: 90%;
+    margin: 5px;
+    padding: 10px
+
+
+}
