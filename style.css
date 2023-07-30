@@ -1,20 +1,49 @@
-:root, body {
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr 5fr 1fr;
     background-color: #DABFFF;
     padding: 0%;
     margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
-    border: #2C2A4A solid; 
+    border: ; 
 }
 
-header {
-    background-color: #7AEDF3;
+header, footer {
+    grid-column: 2 / 3;
+    background-color: #f6f9f9;
     color: #2C2A4A ;
-    padding: 5px;
+    padding:;
     text-align: center;
-    border: 5px #907AD6 solid;
-    margin: 5px;
+    border: 10px #907AD6 solid;
+    margin: ;
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif #2C2A4A;
+}
+
+.navbar {
+    grid-column: 2 / 3;
+    text-align: center;
+    border: 10px #907AD6 solid;
+    justify-content: space-evenly;
+
+}
+
+.navbar a { 
+    text-align: center;
+    border: 5 #907AD6 solid;
+}
+
+.left {
+    grid-column: 1 / 2;
+}
+
+main {
+   grid-column: 2 / 3
+}
+
+.right {
+    grid-column: 3 /4;
 }
 
 
@@ -22,8 +51,12 @@ main {
     overflow: hidden;
     text-align: center;
     color: #2C2A4A;
-    border: 5px #907AD6 solid;
-    margin: 5px
+    border: 10px #907AD6 solid;
+    margin: 
+}
+
+#main-section { 
+    background-color: rgb(245, 245, 249);
 
 }
 
@@ -46,11 +79,12 @@ main {
     width: 300px;
     margin: 5px;
 }
+
 article {
     text-align: left;
     width: 90%;
     margin: 5px;
     padding: 10px
-
-
 }
+
+
